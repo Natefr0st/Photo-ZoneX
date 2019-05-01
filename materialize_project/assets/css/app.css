@@ -18,6 +18,23 @@ header {
  background: transparent;
 }
 
+/* To the top btn */
+
+#top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#top.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
 @media screen and (max-width: 670px){
     header{
         /* min-height: 500px; */
