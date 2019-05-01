@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <title>Materialize CSS Project</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="" class="brand-logo">Photo ZoneX</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#photos">Photo's</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a></li>
+                    <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a></li>
+                    <li><a href="" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#">Photo's</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Gallery Grid -->
+    <section class="container section scrollspy" id="photos">
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="assets/img/photo.jpg" alt="dancer" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6  offset-l1">
+                <h2 class="indigo-text text-darken-4">Portraits</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae maxime dolore, perferendis libero minima tempora. Quasi architecto quod cum quia laborum minima blanditiis, officiis quibusdam!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <img src="assets/img/photo1.jpg" alt="street" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align offset-l1">
+                <h2 class="indigo-text text-darken-4">Cities</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum rerum vero facere quos ducimus excepturi, pariatur dolor architecto, amet nemo ab fuga nihil, eos quaerat.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="assets/img/photo2.jpg" alt="nature" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6  offset-l1">
+                <h2 class="indigo-text text-darken-4">Nature</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum rerum vero facere quos ducimus excepturi, pariatur dolor architecto, amet nemo ab fuga nihil, eos quaerat.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/img/photo3.jpg" alt="galaxy" class="responsive-img">
+        </div>
+    </div>
+    <!-- Service -->
+    <section class="container section scrollspy" id="services">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">What I do...</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, sapiente.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, sapiente.</p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#photography" class="indigo-text text-darken-4">Photography</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+                    </li>
+                </ul>
+                <div class="col s12" id="photography">
+                    <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, cumque expedita! Nostrum recusandae laudantium saepe minus quod sapiente, eveniet cum?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, cumque expedita! Nostrum recusandae laudantium saepe minus quod sapiente, eveniet cum?</p>
+                </div>
+                <div class="col s12" id="editing">
+                    <p class="flow-text indigo-text text-darken-4">EDITING</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, cumque expedita! Nostrum recusandae laudantium saepe minus quod sapiente, eveniet cum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ullam consequatur illo suscipit aperiam laborum!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/img/photo4.jpg" alt="city" class="responsive-img">
+        </div>
+    </div>
+    <!-- Contact -->
+    <section class="section container scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste reiciendis eos ea harum a dolorum!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium maiores debitis placeat. Atque quas omnis quod, natus corporis ad iure.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit maiores sint omnis voluptatibus qui natus?</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" name="email" id="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea name="" id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="date" class="datepicker">
+                        <label for="date">Choose a date you need me for...</label>
+                    </div>
+                    <div class="input-field">
+                        <p>Services required...</p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="" id="">
+                                <span>Photography</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="" id="">
+                                <span>Editing</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About Me</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum recusandae temporibus eaque repellat id magnam neque vero modi? Harum, quis?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit eligendi quam, sapiente voluptatibus voluptas?</p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Connect</h5>
+                    <ul>
+                        <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">LinkedIn</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">
+                &copy; 2019 Photo ZoneX
+            </div>
+        </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

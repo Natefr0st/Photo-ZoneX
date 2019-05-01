@@ -1,0 +1,26 @@
+header {
+    background: url('../img/woman.jpg') center;
+    background-size: cover;
+    /* min-height: 1000px; */
+    min-height: 100vh;
+}
+
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.tabs .indicator {
+    background-color: #1a237e;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+ background: transparent;
+}
+
+@media screen and (max-width: 670px){
+    header{
+        /* min-height: 500px; */
+        min-height: 100vh;
+    }
+}
